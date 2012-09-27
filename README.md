@@ -12,5 +12,5 @@ Helpful reference articles on array shuffling:
 [Eli Bendersky's website » The intuition behind Fisher-Yates shuffling](http://eli.thegreenplace.net/2010/05/28/the-intuition-behind-fisher-yates-shuffling/)
 
 # License
-[Simplified BSD License](https://github.com/BryanLuby/NSArray-Shuffle/blob/master/LICENSE)
+[MIT License](https://github.com/BryanLuby/NSArray-Shuffle/blob/master/LICENSE)
 
