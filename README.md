@@ -1,7 +1,39 @@
 NSArray-Shuffle
 ===============
 
-NSArray category that implements the Knuth shuffle algorithm.
+NSArray category for shuffling arrays.
+
+## Methods
+
+`shuffledArray`
+
+`- (NSArray *)shuffledArray`
+
+**Return Value**
+
+Returns an array where all elements are shuffled into random order.
+
+`shuffledArrayWithItemLimit:`
+
+`- (NSArray *)shuffledArrayWithItemLimit:(NSUInteger)itemLimit`
+
+**Parameters**
+
+*itemLimit*
+
+The number of elements to randomly select from the array.
+
+**Return Value**
+
+Returns an array with a limited number of random elements.
+
+**Discussion**
+
+This method will improve performance if you only need a few elements out of a large dataset.
+
+## Information
+
+This category implements the Fisher-Yates shuffle algorithm and uses the [arc4random_uniform](https://developer.apple.com/library/mac/#documentation/Darwin/Reference/ManPages/man3/arc4random.3.html) random number generator.
 
 Helpful reference articles on array shuffling:
 
