@@ -5,7 +5,7 @@ NSArray category for shuffling arrays.
 
 ## Methods
 
-`shuffledArray`
+**`shuffledArray`**
 
 `- (NSArray *)shuffledArray`
 
@@ -13,7 +13,7 @@ NSArray category for shuffling arrays.
 
 Returns an array where all elements are shuffled into random order.
 
-`shuffledArrayWithItemLimit:`
+**`shuffledArrayWithItemLimit:`**
 
 `- (NSArray *)shuffledArrayWithItemLimit:(NSUInteger)itemLimit`
 
@@ -30,6 +30,10 @@ Returns an array with a limited number of random elements.
 **Discussion**
 
 This method will improve performance if you only need a few elements out of a large dataset.
+
+## Usage
+
+Add the `NSArray+Shuffle.h` and `NSArray+Shuffle.m` files to your Xcode project.
 
 ## Information
 
