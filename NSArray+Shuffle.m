@@ -8,7 +8,7 @@
 
 @implementation NSArray (Shuffle)
 
-- (NSArray *)shuffledArray
+- (NSArray *)bjl_shuffledArray
 {
     NSMutableArray *shuffledArray = [self mutableCopy];
     NSUInteger arrayCount = [shuffledArray count];
@@ -20,9 +20,9 @@
     return [shuffledArray copy];
 }
 
-- (NSArray *)shuffledArrayWithItemLimit:(NSUInteger)itemLimit
+- (NSArray *)bjl_shuffledArrayWithItemLimit:(NSUInteger)itemLimit
 {
-    if (!itemLimit) return [self shuffledArray];
+    if (!itemLimit) return [self bjl_shuffledArray];
     
     NSMutableArray *shuffledArray = [self mutableCopy];
     NSUInteger arrayCount = [shuffledArray count];

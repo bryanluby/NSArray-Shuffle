@@ -9,10 +9,10 @@
 @interface NSArray (Shuffle)
 
 // Returns an array where all elements are shuffled into random order.
-- (NSArray *)shuffledArray;
+- (NSArray *)bjl_shuffledArray;
 
 // Returns an array with a limited number of random elements.
 // This will improve performance if you only need a few elements out of a large dataset.
-- (NSArray *)shuffledArrayWithItemLimit:(NSUInteger)itemLimit;
+- (NSArray *)bjl_shuffledArrayWithItemLimit:(NSUInteger)itemLimit;
 
 @end
