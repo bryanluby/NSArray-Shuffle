@@ -7,7 +7,9 @@ NSArray category for shuffling arrays.
 
 **`bjl_shuffledArray`**
 
-`- (NSArray *)bjl_shuffledArray`
+```objc
+- (NSArray *)bjl_shuffledArray
+```
 
 **Return Value**
 
@@ -15,7 +17,9 @@ Returns an array where all elements are shuffled into random order.
 
 **`bjl_shuffledArrayWithItemLimit:`**
 
-`- (NSArray *)bjl_shuffledArrayWithItemLimit:(NSUInteger)itemLimit`
+```objc
+- (NSArray *)bjl_shuffledArrayWithItemLimit:(NSUInteger)itemLimit
+```
 
 **Parameters**
 
@@ -49,4 +53,3 @@ Helpful reference articles on array shuffling:
 
 # License
 [MIT License](https://github.com/BryanLuby/NSArray-Shuffle/blob/master/LICENSE)
-
