@@ -5,17 +5,17 @@ NSArray category for shuffling arrays.
 
 ## Methods
 
-**`shuffledArray`**
+**`bjl_shuffledArray`**
 
-`- (NSArray *)shuffledArray`
+`- (NSArray *)bjl_shuffledArray`
 
 **Return Value**
 
 Returns an array where all elements are shuffled into random order.
 
-**`shuffledArrayWithItemLimit:`**
+**`bjl_shuffledArrayWithItemLimit:`**
 
-`- (NSArray *)shuffledArrayWithItemLimit:(NSUInteger)itemLimit`
+`- (NSArray *)bjl_shuffledArrayWithItemLimit:(NSUInteger)itemLimit`
 
 **Parameters**
 
